@@ -9,10 +9,14 @@
   <body >
     <!-- nav bar -->
     <header
-      class="bg-[#03AED2] flex flex-col sm:flex-row gap-4 px-3 py-2 font-bold text-white w-full sm:fixed"
+      class="bg-[#03AED2] flex flex-col sm:flex-row gap-0 px-3 py-2 font-bold text-slate-700 w-full sm:fixed items-center"
     >
+    <div>
+      <p class="bg-white rounded-full h-10 w-10 text-center text-3xl font-black  text-slate-700">L</p>
+    </div>
       <div class="basis-1/2 sm:ml-4">
-        <a href="#" class="hover:text-yellow-200">LOGESH</a>
+        <a href="#" class="hover:text-yellow-200 text-xl font-black tracking-widest">LOGESH</a>
+        <p class="font-medium">Profile</p>
       </div>
 
       <div class="hidden md:block">
@@ -20,19 +24,21 @@
           <a href="#home" class="hover:text-yellow-100"> <li>HOME</li></a>
           <a href="#about" class="hover:text-yellow-100"><li>ABOUT</li></a>
           <a href="#qualification" class="hover:text-yellow-100"
-            ><li>QUALIFICATION</li></a
+            ><li>SKILLS</li></a
           >
           <a href="#projects" class="hover:text-yellow-100">
             <li>PROJECTS</li></a
           >
           <a href="#contact" class="hover:text-yellow-100"><li>CONTACT</li></a>
+          
         </ul>
       </div>
+      <button></button>
     </header>
 
     <!-- home page -->
     <div
-      class="bg-yellow-50 min-h-[800px] flex items-center justify-center bg-cover bg-no-repeat flex-col gap-20"
+      class="bg-yellow-50 min-h-[850px] flex items-center justify-center bg-cover bg-no-repeat flex-col gap-20"
       id="home"
       style="background-image: url('/img/bg.jpg'); "
     >
@@ -46,7 +52,7 @@
           <h1 class="font-bold text-3xl mt-3">LOGESH S R</h1>
           <p class="font-mono">I am a front-end developer</p>
           <div class="flex gap-5 justify-center pt-8">
-            <a href="#"  >
+            <a href="https://www.linkedin.com/in/logeshsr75/" target="_blank"  >
               <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30"
               height="30" viewBox="0 0 50 50"
               fill-current
@@ -69,7 +75,7 @@
             ></path>
           </svg></a>
           <!-- github -->
-            <a href="#"><svg
+            <a href="https://github.com/logeshjawhr" target="_blank"><svg
               xmlns="http://www.w3.org/2000/svg"
               x="0px"
               y="0px"
@@ -82,7 +88,7 @@
               ></path>
             </svg></a>
             <!-- gmail -->
-            <a href="#"><svg
+            <a href="mailto:logeshjawhr@gmail.com" target="_blank"><svg
               xmlns="http://www.w3.org/2000/svg"
               x="0px"
               y="0px"
@@ -115,31 +121,69 @@
         </div>
         
       </div>
-     <a href="/resume/resume.pdf" target="_blank"> <button class="bg-orange-400 hover:bg-orange-500 p-3 rounded text-white font-bold">VIEW RESUME</button></a>
+     <a href=" /My-Portfolio/resume/resume.pdf " target="_blank"> <button class="bg-orange-400 hover:bg-orange-500 p-3 rounded text-white font-bold">VIEW RESUME</button></a>
     </div>
 
     <!-- About Page -->
-    <div class="bg-yellow-100 min-h-[800px] " id="about">
-      <h1 class="text-3xl text-center pt-10 font-bold">About Me</h1>
+    <div class="bg-yellow-100 min-h-[850px] " id="about">
+      <h1 class="text-3xl text-center pt-10 font-medium">About Me</h1>
      <div class="bg-white rounded p-5 max-w-sm sm:max-w-xl w-72 md:w-full mx-auto m-5 ">
-      <p class="text-justify">Hello, I'm logesh, a dedicated web developer with a passion for crafting seamless and visually appealing user experiences. With a strong foundation in frontend development, I'm actively seeking opportunities for both internships and full-time positions. My daily routine revolves around honing my skills through hands-on practice, tackling diverse projects, and continuously enhancing my problem-solving abilities. I thrive on creating elegant and functional websites that marry aesthetics with functionality. If you're looking for a motivated and adaptable web developer, I'm excited to bring my expertise to your team.</p>
+      <p class="text-justify text-xl">Hello, I'm <span class="text-green-700">Logesh</span>, a dedicated web developer with a passion for crafting seamless and visually appealing user experiences. With a strong foundation in frontend development, I'm actively seeking opportunities for both internships and full-time positions. My daily routine revolves around honing my skills through hands-on practice, tackling diverse projects, and continuously enhancing my problem-solving abilities. I thrive on creating elegant and functional websites that marry aesthetics with functionality. If you're looking for a motivated and adaptable web developer, I'm excited to bring my expertise to your team.</p>
      </div>
+
+     <!-- Qualification -->
+     <div >
+      <p class="bg-orange-400 text-center text-2xl w-48 rounded mx-auto mb-2 ">QUALIFICATIONS</p>
+      <div class="bg-white rounded max-w-xl mx-auto p-4  ">
+      
+      <p class="text-xl" >Bachelors Degree - Electronics and Communication Engineering</p>
+      <p >VELALAR COLLEGE OF ENGINEERING AND TECHNOLOGY</p>
+      <p>CGPA - 8.89</p>
+      </div>
+      <div class="bg-white rounded max-w-xl mx-auto p-4 m-2 ">
+      
+        <p class="text-xl">12<sup>th</sup></p>
+        <p>SRI SAKTHI SUPREME IDEAL VIKAS MATRIC HIGHER SECONDARY SCHOOL</p>
+        <p>Percentage - 84.9%</p>
+        </div>
+        <div class="bg-white rounded  max-w-xl mx-auto p-4 m-2 ">
+      
+          <p class="text-xl">10<sup>th</sup></p>
+          <p>SRI SAKTHI SUPREME IDEAL VIKAS MATRIC HIGHER SECONDARY SCHOOL</p>
+          <p>Percentage - 92.8%</p>
+          </div>
+    </div>
     </div>
 
 
 
-    <!-- Qualification page -->
-    <div class="bg-yellow-50 min-h-[800px]" id="qualification">he</div>
+    <!-- Skill page -->
+    <div class="bg-yellow-50 min-h-[850px]" id="qualification">
+      <h1 class="text-3xl text-center pt-10 font-medium">Technical Skills</h1>
+      <div class=" max-w-xl mx-auto bg-white p-5 mt-5">
+        <ul class="list-decimal pl-5 text-xl">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Javascript</li>
+          <li>Tailwind CSS</li>
+          <li>JSON</li>
+          <li>API</li>
+          <li>Git & Github</li>
+          <li>Java Programming</li>
+          <li>C Programming</li>
+        </ul>
+      </div>
+    </div>
     <!-- Project page -->
-    <div class="bg-yellow-100 min-h-[800px]" id="projects">
-      <h2 class="text-3xl text-center pt-10 font-bold">Projects</h2>
+    <div class="bg-yellow-100 min-h-[850px]" id="projects">
+      <h2 class="text-3xl text-center pt-10 font-medium">Projects</h2>
     </div>
 
 
 
     <!-- Contact Page -->
     <div class="bg-yellow-50 min-h-[800px]" id="contact">
-      <h2 class="text-3xl text-center pt-10 font-bold">Contact Form</h2>
+      <h2 class="text-3xl text-center pt-10 font-medium">Contact Form</h2>
       <form action="" class="flex flex-col p-3 gap-3">
         <input type="text" placeholder="Enter your name" class="p-3 outline-none">
         
@@ -147,7 +191,7 @@
      
       <input type="number" placeholder="Mobile number" class="p-3 outline-none" min="0">
       <textarea name="" id="" placeholder="Write your message here" class="p-3 outline-none" rows="10"></textarea>
-      <button type="submit" class="bg-orange-400 rounded font-bold p-3 text-white outline-none w-44 mx-auto">SUBMIT</button>
+      <button type="submit" class="bg-orange-400 rounded font-bold p-3 text-white outline-none w-44 mx-auto ">SUBMIT</button>
     </form>
     </div>
 
