@@ -59,6 +59,6 @@ Distributed under the MIT License. See LICENSE for more information.
 # Contact
 Your Name - Logesh -logeshjawhr@gmail.com
 
-# Project Link: https://github.com/your-username/my-portfolio
+# Project Link: https://github.com/logeshjawhr/My-Portfolio
 
 Feel free to customize the content as per your requirements.
