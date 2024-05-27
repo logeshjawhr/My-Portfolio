@@ -1,8 +1,9 @@
-My Portfolio
-Welcome to my personal portfolio website! This project showcases my skills, projects, and experience in web development. The portfolio is built using HTML, CSS, TailwindCSS, and JavaScript.
+### My Portfolio
+# Welcome to my personal portfolio website! This project showcases my skills, projects, and experience in web development. The portfolio is built using HTML, CSS, TailwindCSS, and JavaScript.
 Live link : (https://github.com/logeshjawhr/My-Portfolio)
-Table of Contents
-Introduction
+
+## Table of Contents
+-[]Introduction
 Features
 Technologies Used
 Installation
